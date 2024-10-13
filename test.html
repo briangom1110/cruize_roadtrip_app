@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRUIZE - Page 1</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Calistoga, sans-serif;
+        }
+
+        .container {
+            width: 100%;
+            height: 100%;
+            position: relative;
+        }
+
+        .background-section {
+            width: 991px;
+            height: 543px;
+            position: absolute;
+            top: 575px;
+            background: #06310C;
+        }
+
+        .image-section {
+            width: 991px;
+            height: 575px;
+            position: absolute;
+            top: 0;
+        }
+
+        .image-section img {
+            width: 100%;
+            height: 100%;
+            position: absolute;
+        }
+
+        .title {
+            width: 430px;
+            height: 100px;
+            position: absolute;
+            top: 217px;
+            left: 304px;
+            text-align: center;
+            color: #1B451E;
+            font-size: 70px;
+            font-family: Calistoga, sans-serif;
+            font-weight: 400;
+            letter-spacing: 10.50px;
+            word-wrap: break-word;
+        }
+
+        .input-field {
+            width: 710px;
+            height: 71px;
+            background: #FFF8CE;
+            border-radius: 50px;
+            position: absolute;
+        }
+
+        .input-label {
+            width: 400px;
+            height: 62px;
+            opacity: 0.75;
+            color: #FFF8CE;
+            font-size: 32px;
+            font-family: 'League Gothic', sans-serif;
+            font-weight: 400;
+            letter-spacing: 3.20px;
+            word-wrap: break-word;
+            position: absolute;
+        }
+
+        /* Starting Location */
+        .starting-location-field {
+            top: 639.50px;
+            left: 114px;
+        }
+
+        .starting-location-label {
+            top: 593px;
+            left: 80px;
+        }
+
+        /* Destination */
+        .destination-field {
+            top: 777.50px;
+            left: 114px;
+        }
+
+        .destination-label {
+            top: 731px;
+            left: 80px;
+        }
+
+        /* Number of Stops */
+        .stops-field {
+            top: 915.50px;
+            left: 114px;
+        }
+
+        .stops-label {
+            top: 869px;
+            left: 80px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <!-- Background Section -->
+    <div class="background-section"></div>
+
+    <!-- Image Section -->
+    <div class="image-section">
+        <img src="https://storage.googleapis.com/pod_public/750/104605.jpg" alt="Placeholder Image">
+        <!-- Title CRUIZE -->
+        <div class="title">CRUIZE</div>
+    </div>
+
+    <!-- Starting Location Input -->
+    <div class="input-field starting-location-field"></div>
+    <div class="input-label starting-location-label">STARTING LOCATION:</div>
+
+    <!-- Destination Input -->
+    <div class="input-field destination-field"></div>
+    <div class="input-label destination-label">DESTINATION:</div>
+
+    <!-- Number of Stops Input -->
+    <div class="input-field stops-field"></div>
+    <div class="input-label stops-label">NUMBER OF STOPS:</div>
+</div>
+
+</body>
+</html>
